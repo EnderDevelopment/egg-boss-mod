@@ -1,0 +1,23 @@
+[mods]
+modId="bossmod"
+version="${file.jarVersion}"
+displayName="Boss Mod"
+credits="EnderDevelopment"
+authors="EnderDevelopment"
+description='''
+A mod that adds a custom boss and a custom egg.
+'''
+
+[[dependencies.bossmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bossmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
